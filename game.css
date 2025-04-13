@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+#maindiv{
+    margin:auto;
+    height:300px;
+    width:300px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxes{
+    height:100px;
+    width:100px;
+    border: 7px solid black;
+    border-radius:25px;
+
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: blue;
+}
+
+#box4{
+    background-color: yellow;
+}
+.flash{
+    opacity:0.2;
+}
+ 
+.loss{
+    background-color: black;
+}
